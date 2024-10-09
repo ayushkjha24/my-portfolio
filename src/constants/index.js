@@ -76,7 +76,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Darbhanga , Bihar, India",
+  address: "Darbhanga, Bihar, India, 846001",
   phoneNo: "+9170******81",
   email: "ayushkjha.2004@gmail.com",
 };

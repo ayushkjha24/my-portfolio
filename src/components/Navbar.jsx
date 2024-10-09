@@ -3,7 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaQuora } from "react-icons/fa";
-import { FaDiscord } from "react-icons/fa";
+import iitm from "../assets/iitm.png";
 const  Navbar = () => {
   return ( 
   <nav className="mb-20 flex items-center justify-between py-6">
@@ -15,8 +15,7 @@ const  Navbar = () => {
         <a href="https://www.linkedin.com/in/ayush-jha-210876259/"><FaLinkedin/></a>
         <a href="https://github.com/ayushkjha24"><FaGithub/></a>
         <a href="https://www.instagram.com/ayushkjha.24/"><FaInstagram/></a>
-        <a href=""><FaDiscord/></a>
-        <a href=""><FaDiscord/></a>
+        <a href="https://app.onlinedegree.iitm.ac.in/student/22F3000846"><img src={ iitm } alt="IITMADRAS" height={30} width={30}/></a>
         <a href="https://www.quora.com/profile/Ayush-Jha-683?ch=10&oid=1485754751&share=b6da963b&srid=ueps1c&target_type=user"><FaQuora/></a>
         
     </div>
