@@ -46,7 +46,7 @@ const AwardsAndCertificates = () => {
         whileInView={{opacity:1,y:0}}
         initial={{opacity:0,y:-100}}
         transition={{duration:0.5}}
-        className="my-20 text-center text-4xl">Awards or Certificates</motion.h1>
+        className="my-20 text-center font-bold text-4xl">Awards or Certificates</motion.h1>
     <div className="flex flex-wrap justify-center mb-4">
       {cards.map((card, index) => (
         <div key={index} className="max-w-sm rounded m-3 overflow-hidden shadow-lg mb-4">
